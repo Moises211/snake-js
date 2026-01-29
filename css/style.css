@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.marco{
+    width: 600px;
+    height: 750px;
+    border: 5px solid rgb(59, 117, 83);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    background-color: white;
+}
+
+.canvas-container{    
+    background-color: #eee;
+    padding: 10px;
+}
+
+canvas {
+    width: 100%;    /* Se adapta al contenedor */
+    height: auto;   /* Mantiene la proporción */
+    border: 1px solid #000;
+    display: block;
+}
+button{
+    display: block;
+    width: auto;
+}
